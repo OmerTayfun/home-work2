@@ -4,14 +4,14 @@ public class Courses {
 	
 	int id;
 	String courseName;
-	String courseDetail;
-	double coursePrice;
+	String courseInstructor;
+	double courseProcess;
 	
-	public Course(int id,String productName,String productDetail,double unitPrice) {
+	public Course(int id,String courseName,String courseInstructor,double courseProcess) {
 		this.id=id;
 		this.courseName=courseName;
-		this.courseDetail=courseDetail;
-		this.coursePrice=coursePrice;
+		this.courseInstructor=courseInstructor;
+		this.courseProcess=courseProcess;
 		
 		
 	}
