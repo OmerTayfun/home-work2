@@ -6,7 +6,7 @@ public class CourseManager {
 		System.out.println(course.courseName+" Kursuna katılımınız başarı ile sağlandı!");
 	}
 	
-	public void removeFromFavorites(Course course) {
+	public void removeFromCourse(Course course) {
 		System.out.println(course.courseName+" Kursunu başarıyla çıkardınız!");
 	}
 }
